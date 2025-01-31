@@ -10,6 +10,11 @@ input.onButtonPressed(Button.A, function () {
         `)
 })
 // Closes the Barrier
+input.onButtonPressed(Button.AB, function () {
+    radio.sendNumber(3)
+    basic.showIcon(IconNames.No)
+})
+// Closes the Barrier
 input.onButtonPressed(Button.B, function () {
     radio.sendNumber(2)
     basic.showLeds(`

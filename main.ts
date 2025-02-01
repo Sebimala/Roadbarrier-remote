@@ -9,7 +9,7 @@ input.onButtonPressed(Button.A, function () {
         . . # . .
         `)
 })
-// Closes the Barrier
+// Closes the lights
 input.onButtonPressed(Button.AB, function () {
     radio.sendNumber(3)
     basic.showIcon(IconNames.No)
@@ -25,4 +25,4 @@ input.onButtonPressed(Button.B, function () {
         . . # . .
         `)
 })
-radio.setGroup(1)
+radio.setGroup(3)
